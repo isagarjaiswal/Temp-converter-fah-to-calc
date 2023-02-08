@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #e756c3d9;
+
+}
+div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.for_css{
+    width: 25vmax;
+    height: 13vmax;
+    border: 2px solid black;
+    padding: 2vmax;
+    color: white;
+    font: 600 20px "montserrat";
+}
+#btn{
+    margin-top: 5px;
+    width: 75px;
+    height: 25px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+
+}
